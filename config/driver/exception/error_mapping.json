@@ -1,0 +1,782 @@
+{
+    "error_mapping_Sungrow": {
+        "SGX-110": {
+            "2": {
+                "name": "Grid overvoltage",
+                "code": 1024
+            },
+            "3": {
+                "name": "Grid transient overvoltage",
+                "code": 9999
+            },
+            "4": {
+                "name": "Grid undervoltage",
+                "code": 2048
+            },
+            "5": {
+                "name": "Grid low voltage",
+                "code": 9999
+            },
+            "7": {
+                "name": "AC instantaneous overcurrent",
+                "code": 9999
+            },
+            "8": {
+                "name": "Grid overfrequency",
+                "code": 256
+            },
+            "9": {
+                "name": "Grid underfrequency",
+                "code": 512
+            },
+            "10": {
+                "name": "Grid power outage",
+                "code": 9999
+            },
+            "11": {
+                "name": "Device abnormal",
+                "code": 9011
+            },
+            "13": {
+                "name": "Device abnormal",
+                "code": 9013
+            },
+            "19": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "20": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "21": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "22": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "24": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "25": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "30": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "31": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "32": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "33": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "34": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "38": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "40": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "41": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "42": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "44": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "45": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "46": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "48": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "49": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "50": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "53": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "54": {
+                "name": "Device abnormal",
+                "code": 9054
+            },
+            "55": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "56": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "59": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "60": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "76": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "116": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "117": {
+                "name": "Device abnormal",
+                "code": 9999
+            },
+            "12": {
+                "name": "Excessive leakage current",
+                "code": 9999
+            },
+            "14": {
+                "name": "10-minute grid overvoltage",
+                "code": 9999
+            },
+            "15": {
+                "name": "Grid high voltage",
+                "code": 3
+            },
+            "16": {
+                "name": "Output overload",
+                "code": 5
+            },
+            "17": {
+                "name": "Grid voltage unbalance",
+                "code": 6
+            },
+            "23": {
+                "name": "PV connection fault",
+                "code": 7
+            },
+            "36": {
+                "name": "Excessively high module temperature",
+                "code": 126
+            },
+            "37": {
+                "name": "Excessively high ambient temperature",
+                "code": 126
+            },
+            "39": {
+                "name": "Low system insulation resistance",
+                "code": 9
+            },
+            "43": {
+                "name": "Low ambient temperature",
+                "code": 8192
+            },
+            "47": {
+                "name": "PV input configuration abnormal",
+                "code": 10
+            },
+            "70": {
+                "name": "Fan alarm",
+                "code": 11
+            },
+            "71": {
+                "name": "AC-side SPD alarm",
+                "code": 12
+            },
+            "72": {
+                "name": "DC-side SPD alarm",
+                "code": 13
+            },
+            "74": {
+                "name": "Communication alarm",
+                "code": 7000
+            },
+            "78": {
+                "name": "PV1 abnormal",
+                "code": 5000
+            },
+            "79": {
+                "name": "PV2 abnormal",
+                "code": 5001
+            },
+            "80": {
+                "name": "PV3 abnormal",
+                "code": 5002
+            },
+            "81": {
+                "name": "PV4 abnormal",
+                "code": 5003
+            },
+            "87": {
+                "name": "Electric arc detection module abnormal",
+                "code": 6000
+            },
+            "88": {
+                "name": "Electric arc fault",
+                "code": 6001
+            },
+            "89": {
+                "name": "Electric arc detection disabled",
+                "code": 6002
+            },
+            "105": {
+                "name": "Grid-side protection self-check failure",
+                "code": 6003
+            },
+            "106": {
+                "name": "Grounding cable fault",
+                "code": 1
+            },
+            "220": {
+                "name": "PV05 abnormal",
+                "code": 5004
+            },
+            "221": {
+                "name": "PV06 abnormal",
+                "code": 5005
+            },
+            "222": {
+                "name": "PV07 abnormal",
+                "code": 5006
+            },
+            "223": {
+                "name": "PV08 abnormal",
+                "code": 5007
+            },
+            "224": {
+                "name": "PV09 abnormal",
+                "code": 5008
+            },
+            "225": {
+                "name": "PV10 abnormal",
+                "code": 5009
+            },
+            "226": {
+                "name": "PV11 abnormal",
+                "code": 5010
+            },
+            "227": {
+                "name": "PV12 abnormal",
+                "code": 5011
+            },
+            "514": {
+                "name": "Meter communication abnormal alarm",
+                "code": 7001
+            },
+            "532": {
+                "name": "String 01 reverse connection alarm",
+                "code": 4000
+            },
+            "533": {
+                "name": "String 02 reverse connection alarm",
+                "code": 4001
+            },
+            "534": {
+                "name": "String 03 reverse connection alarm",
+                "code": 4002
+            },
+            "535": {
+                "name": "String 04 reverse connection alarm",
+                "code": 4003
+            },
+            "536": {
+                "name": "String 05 reverse connection alarm",
+                "code": 4004
+            },
+            "537": {
+                "name": "String 06 reverse connection alarm",
+                "code": 4005
+            },
+            "538": {
+                "name": "String 07 reverse connection alarm",
+                "code": 4006
+            },
+            "539": {
+                "name": "String 08 reverse connection alarm",
+                "code": 4007
+            },
+            "540": {
+                "name": "String 09 reverse connection alarm",
+                "code": 4008
+            },
+            "541": {
+                "name": "String 10 reverse connection alarm",
+                "code": 4009
+            },
+            "542": {
+                "name": "String 11 reverse connection alarm",
+                "code": 4010
+            },
+            "543": {
+                "name": "String 12 reverse connection alarm",
+                "code": 4011
+            },
+            "544": {
+                "name": "String 13 reverse connection alarm",
+                "code": 4012
+            },
+            "545": {
+                "name": "String 14 reverse connection alarm",
+                "code": 4013
+            },
+            "546": {
+                "name": "String 15 reverse connection alarm",
+                "code": 4014
+            },
+            "547": {
+                "name": "String 16 reverse connection alarm",
+                "code": 4015
+            },
+            "564": {
+                "name": "String 17 reverse connection alarm",
+                "code": 4016
+            },
+            "565": {
+                "name": "String 18 reverse connection alarm",
+                "code": 4017
+            },
+            "566": {
+                "name": "String 19 reverse connection alarm",
+                "code": 4018
+            },
+            "567": {
+                "name": "String 20 reverse connection alarm",
+                "code": 4019
+            },
+            "568": {
+                "name": "String 21 reverse connection alarm",
+                "code": 4020
+            },
+            "569": {
+                "name": "String 22 reverse connection alarm",
+                "code": 4021
+            },
+            "570": {
+                "name": "String 23 reverse connection alarm",
+                "code": 4022
+            },
+            "571": {
+                "name": "String 24 reverse connection alarm",
+                "code": 4023
+            },
+            "548": {
+                "name": "String 01 abnormal alarm",
+                "code": 3000
+            },
+            "549": {
+                "name": "String 02 abnormal alarm",
+                "code": 110002
+            },
+            "550": {
+                "name": "String 03 abnormal alarm",
+                "code": 110003
+            },
+            "551": {
+                "name": "String 04 abnormal alarm",
+                "code": 110004
+            },
+            "552": {
+                "name": "String 05 abnormal alarm",
+                "code": 110005
+            },
+            "553": {
+                "name": "String 06 abnormal alarm",
+                "code": 110006
+            },
+            "554": {
+                "name": "String 07 abnormal alarm",
+                "code": 110007
+            },
+            "555": {
+                "name": "String 08 abnormal alarm",
+                "code": 110008
+            },
+            "556": {
+                "name": "String 09 abnormal alarm",
+                "code": 110009
+            },
+            "557": {
+                "name": "String 10 abnormal alarm",
+                "code": 110010
+            },
+            "558": {
+                "name": "String 11 abnormal alarm",
+                "code": 110011
+            },
+            "559": {
+                "name": "String 12 abnormal alarm",
+                "code": 110012
+            },
+            "560": {
+                "name": "String 13 abnormal alarm",
+                "code": 110013
+            },
+            "561": {
+                "name": "String 14 abnormal alarm",
+                "code": 110014
+            },
+            "562": {
+                "name": "String 15 abnormal alarm",
+                "code": 110015
+            },
+            "563": {
+                "name": "String 16 abnormal alarm",
+                "code": 110016
+            },
+            "580": {
+                "name": "String 17 abnormal alarm",
+                "code": 110017
+            },
+            "581": {
+                "name": "String 18 abnormal alarm",
+                "code": 110018
+            },
+            "582": {
+                "name": "String 19 abnormal alarm",
+                "code": 110019
+            },
+            "583": {
+                "name": "String 20 abnormal alarm",
+                "code": 110020
+            },
+            "584": {
+                "name": "String 21 abnormal alarm",
+                "code": 110021
+            },
+            "585": {
+                "name": "String 22 abnormal alarm",
+                "code": 110022
+            },
+            "586": {
+                "name": "String 23 abnormal alarm",
+                "code": 110023
+            },
+            "587": {
+                "name": "String 24 abnormal alarm",
+                "code": 110024
+            },
+            "448": {
+                "name": "String 01 reverse connection fault",
+                "code": 120001
+            },
+            "449": {
+                "name": "String 02 reverse connection fault",
+                "code": 120002
+            },
+            "450": {
+                "name": "String 03 reverse connection fault",
+                "code": 120003
+            },
+            "451": {
+                "name": "String 04 reverse connection fault",
+                "code": 120004
+            },
+            "452": {
+                "name": "String 05 reverse connection fault",
+                "code": 120005
+            },
+            "453": {
+                "name": "String 06 reverse connection fault",
+                "code": 120006
+            },
+            "454": {
+                "name": "String 07 reverse connection fault",
+                "code": 120007
+            },
+            "455": {
+                "name": "String 08 reverse connection fault",
+                "code": 120008
+            },
+            "456": {
+                "name": "String 09 reverse connection fault",
+                "code": 120009
+            },
+            "457": {
+                "name": "String 10 reverse connection fault",
+                "code": 120010
+            },
+            "458": {
+                "name": "String 11 reverse connection fault",
+                "code": 120011
+            },
+            "459": {
+                "name": "String 12 reverse connection fault",
+                "code": 120012
+            },
+            "460": {
+                "name": "String 13 reverse connection fault",
+                "code": 120013
+            },
+            "461": {
+                "name": "String 14 reverse connection fault",
+                "code": 120014
+            },
+            "462": {
+                "name": "String 15 reverse connection fault",
+                "code": 120015
+            },
+            "463": {
+                "name": "String 16 reverse connection fault",
+                "code": 120016
+            },
+            "464": {
+                "name": "String 17 reverse connection fault",
+                "code": 120017
+            },
+            "465": {
+                "name": "String 18 reverse connection fault",
+                "code": 120018
+            },
+            "466": {
+                "name": "String 19 reverse connection fault",
+                "code": 120019
+            },
+            "467": {
+                "name": "String 20 reverse connection fault",
+                "code": 120020
+            },
+            "468": {
+                "name": "String 21 reverse connection fault",
+                "code": 120021
+            },
+            "469": {
+                "name": "String 22 reverse connection fault",
+                "code": 120022
+            },
+            "470": {
+                "name": "String 23 reverse connection fault",
+                "code": 120023
+            },
+            "471": {
+                "name": "String 24 reverse connection fault",
+                "code": 120024
+            }
+        }
+    },
+    "error_mapping_SMA": {
+        "SHP-75": {
+            "EvtVnd1": {
+                "1": "1, 2, 3 (events)",
+                "2": "4, 5, 6 (events)",
+                "4": "7, 8, 9 (events)",
+                "8": "10, 11, 12 (events)",
+                "16": "13, 14, 15 (events)",
+                "32": "16, 17 (events)",
+                "64": "18, 25, 26, 27, 28, 29, 30, 38, 39, 41, 42, 43, 44, 45, 48, 49, 50 (events)",
+                "128": "19, 20, 21 (events)",
+                "256": "22, 23, 24 (events)",
+                "512": "51, 52, 53 (events)",
+                "1024": "31, 32, 33 (events)",
+                "2048": "54, 55, 56 (events)",
+                "4096": "34 (event)",
+                "8192": "35, 36, 37 (events",
+                "16384": "40 (event)",
+                "32768": "61 (event)",
+                "65536": "62 (event)",
+                "33554432": "211 (warning)",
+                "67108864": "278 (warning)"
+            },
+            "EvtVnd2": {
+                "1": "225-240, 275",
+                "2": "242, 243, 245, 274, 353, 356 to 361",
+                "4": "264, 266",
+                "8": "282",
+                "16": "100",
+                "32": "350, 351, 352, 366"
+            },
+            "EvtVnd3": {
+                "1": 103,
+                "2": 115
+            },
+            "EvtVnd4": {
+                "1": "201, 202, 203, 205, 207, 208 (events)",
+                "2": "209, 210 (events)",
+                "4": "258 (event)",
+                "8": "216, 217, 218 (events)",
+                "16": "219, 220, 221 (events)",
+                "32": "252, 253, 254 (events)",
+                "64": "213, 214, 215 (events)",
+                "128": "263 (event)",
+                "256": "279 (event)",
+                "512": "280 (event)",
+                "1024": "281 (event)",
+                "2048": "283 (event)",
+                "4096": "47 (event)",
+                "8192": "323 (event)",
+                "16777216": "260 (warning)",
+                "33554432": "272 (warning)",
+                "67108864": "273 (warning)"
+            }
+        },
+        "SHP-100-20": {
+            "Evt1": {
+                "1": {
+                    "name": "GROUND_FAULT",
+                    "code": 1
+                },
+                "2": {
+                    "name": "DC_OVER_VOLT",
+                    "code": 2
+                },
+                "4": {
+                    "name": "AC_DISCONNECT",
+                    "code": 4
+                },
+                "8": {
+                    "name": "DC_DISCONNECT",
+                    "code": 8
+                },
+                "16": {
+                    "name": "GRID_DISCONNECT",
+                    "code": 16
+                },
+                "32": {
+                    "name": "CABINET_OPEN",
+                    "code": 32
+                },
+                "64": {
+                    "name": "MANUAL_SHUTDOWN",
+                    "code": 64
+                },
+                "126": {
+                    "name": "OVER_TEMP",
+                    "code": 126
+                },
+                "256": {
+                    "name": "OVER_FREQUENCY",
+                    "code": 256
+                },
+                "512": {
+                    "name": "UNDER_FREQUENCY",
+                    "code": 512
+                },
+                "1024": {
+                    "name": "AC_OVER_VOLT",
+                    "code": 1024
+                },
+                "2048": {
+                    "name": "AC_UNDER_VOLT",
+                    "code": 2048
+                },
+                "4096": {
+                    "name": "BLOWN_GRID_FUSE",
+                    "code": 4096
+                },
+                "8192": {
+                    "name": "UNDER_TEMP",
+                    "code": 8192
+                },
+                "16384": {
+                    "name": "MEMORY_LOSS",
+                    "code": 16384
+                },
+                "32768": {
+                    "name": "HW_TEST_FAILURE",
+                    "code": 32768
+                }
+            }
+        },
+        "SHP-110-60": {
+            "Evt1": [
+                {
+                    "name": "GROUND_FAULT",
+                    "code": 1
+                },
+                {
+                    "name": "DC_OVER_VOLT",
+                    "code": 2
+                },
+                {
+                    "name": "AC_DISCONNECT",
+                    "code": 4
+                },
+                {
+                    "name": "DC_DISCONNECT",
+                    "code": 8
+                },
+                {
+                    "name": "GRID_DISCONNECT",
+                    "code": 16
+                },
+                {
+                    "name": "CABINET_OPEN",
+                    "code": 32
+                },
+                {
+                    "name": "MANUAL_SHUTDOWN",
+                    "code": 64
+                },
+                {
+                    "name": "OVER_TEMP",
+                    "code": 126
+                },
+                {
+                    "name": "OVER_FREQUENCY",
+                    "code": 256
+                },
+                {
+                    "name": "UNDER_FREQUENCY",
+                    "code": 512
+                },
+                {
+                    "name": "AC_OVER_VOLT",
+                    "code": 1024
+                },
+                {
+                    "name": "AC_UNDER_VOLT",
+                    "code": 2048
+                },
+                {
+                    "name": "BLOWN_GRID_FUSE",
+                    "code": 4096
+                },
+                {
+                    "name": "UNDER_TEMP",
+                    "code": 8192
+                },
+                {
+                    "name": "MEMORY_LOSS",
+                    "code": 16384
+                },
+                {
+                    "name": "HW_TEST_FAILURE",
+                    "code": 32768
+                }
+            ]
+        }
+    },
+    "preset": {
+        "SMA": "1xxxxx",
+        "Sungrow": "3xxxxx"
+    }
+}

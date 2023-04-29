@@ -1,0 +1,64 @@
+version: '3.1'
+
+services:
+  rpi-dev:
+    image: nhatdev:latest
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    privileged: true
+    container_name: rpidev
+    volumes:
+      - ./../:/pecom/rpi-playground
+      - /dev/:/dev/
+      - /var/run/docker.sock:/var/run/docker.sock
+    profiles:
+      - dev
+  rpi-test:
+    image: rpiscadapecom_test:latest
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    privileged: true
+    container_name: rpitest
+    volumes:
+      - ~/cert:/cert
+      - ~/creds:/creds
+      - ~/config:/pecom/rpi-playground/config
+      - ~/queue_store:/pecom/rpi-playground/queue_store
+      - /dev/:/dev/
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - ContainerName=rpitest
+      - ConfigFolderPath=${ConfigFolderPath}
+      - UserCredentialsPath=${UserCredentials}
+      - UserPwds=${UserPwds}
+      - USER=${USER}
+      - DefaultConfigFolderPath=/pecom/rpi-playground/config/driver/default_config.json
+      - CertFilePath=/cert/client-cert.pem
+      - KeyFilePath=/cert/client-key.pem
+      - RootCaFilePath=/cert/ca-cert.pem
+    profiles:
+      - test
+  rpi-prod:
+    image: rpiscadapecom:latest
+    restart: always
+    privileged: true
+    container_name: rpiprod
+    volumes:
+      - ~/cert:/cert
+      - ~/creds:/creds
+      - ~/config:/pecom/rpi-playground/config
+      - ~/queue_store:/pecom/rpi-playground/queue_store
+      - /dev/:/dev/
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - ContainerName=rpiprod
+      - ConfigFolderPath=${ConfigFolderPath}
+      - UserCredentialsPath=${UserCredentials}
+      - UserPwds=${UserPwds}
+      - USER=${USER}
+      - DefaultConfigFolderPath=/pecom/rpi-playground/config/driver/default_config.json
+      - CertFilePath=/cert/client-cert.pem
+      - KeyFilePath=/cert/client-key.pem
+      - RootCaFilePath=/cert/ca-cert.pem
+    profiles:
+      - prod

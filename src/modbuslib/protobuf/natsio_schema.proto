@@ -1,0 +1,87 @@
+syntax = "proto3";
+package com.pec.natsioschema;
+
+option java_package = "com.pec.natsioschema";
+
+/**
+ * Metrics submitted to server via Natsio must be of this type. 
+ * 
+ * It contains:
+ *   - site_info (SiteInfo): site information
+ *   - metric_groups (MetricGroup): one or more metric group(s)
+ */
+message MetricSubmission {
+    SiteInfo site_info = 1;
+    repeated MetricGroup metric_groups = 2;
+}
+
+/**
+ * A MetricGroup contains one or more metric(s) for a given device at a given timestamp.
+ *
+ * It contains:
+ *   - timestamp (int64): the time (in millis) when the metrics are taken/measured
+ *   - device_info (DeviceInfo): information of the device to whom the metrics belong
+ *   - metrics (Metric): one or more metric(s)
+ */
+message MetricGroup {
+    int64 timestamp = 1;
+    DeviceInfo device_info = 2;
+    repeated Metric metrics = 3;
+}
+
+/**
+ * A Metric represents a measurement of the system.
+ *
+ * It contains:
+ *   - name (string): the name of the metric (e.g. PPVphAB, PhVphA)
+ *   - unit (string): the unit of the unit, only when applicable (e.g. V, A, W, Wh)
+ *   - metric_value contains the value, which can be one of the following types: 
+ *     int32, uint32, int64, uint64, float, string
+ *     enum16, enum32, bitfield16, and bitfield32 are encoded as uint32
+ */
+message Metric {
+    string name = 1;
+    string unit = 2;
+    oneof metric_value {
+        int32 int32_value = 3;
+        uint32 uint32_value = 4;
+        int64 int64_value = 5;
+        uint64 uint64_value = 6;
+        float float_value = 7;
+        uint32 enum16_value = 8;
+        uint32 enum32_value = 9;
+        uint32 bitfield16_value = 10;
+        uint32 bitfield32_value = 11;
+        string str_value = 12;
+    }
+}
+
+/**
+ * A DeviceInfo contains information belong to the device whose metrics are being taken.
+ * 
+ * It contains:
+ *   - model (string): model of the device (e.g. SHP 75, STP 110-60)
+ *   - manufactrer (string): name of the manufacturer (e.g. SMA)
+ *   - serial_number (string): serial number of the device (e.g. A2009272557)
+ *   - driver_version (string): version of the driver used to read the data (e.g. 1.0.0)
+ *   - device_id (string): id of the device, should be stable
+ */
+message DeviceInfo {
+    string model = 1;
+    string manufacturer = 2;
+    string serial_number = 3;
+    string driver_version = 4;
+    string device_id = 5;
+}
+
+/**
+ * A SiteInfo contains the information of the place where the device is located.
+ *
+ * It contains:
+ *   - tenant (string): the name of the owner (e.g. PECOM)
+ *   - location (string): the location of the site (e.g. Ha Noi)
+ */
+message SiteInfo {
+    string tenant = 1;
+    string location = 2;
+}

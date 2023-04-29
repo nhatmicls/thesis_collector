@@ -1,0 +1,101 @@
+{
+    "manufacturer": "Sungrow",
+    "version": "2.0.1",
+    "protocol": "RTU",
+    "offset": 1,
+    "points": {
+        "input_registers": {},
+        "holding_registers": {
+            "test": {
+                "label": "test",
+                "registerAddr": 1,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test",
+                "scaleFactor": 0
+            },
+            "test_1": {
+                "label": "test_1",
+                "registerAddr": 2,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test_1",
+                "scaleFactor": 0
+            },
+            "test_2": {
+                "label": "test",
+                "registerAddr": 3,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test",
+                "scaleFactor": 0
+            },
+            "test_3": {
+                "label": "test_1",
+                "registerAddr": 4,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test_1",
+                "scaleFactor": 0
+            },
+            "test_4": {
+                "label": "test_1",
+                "registerAddr": 5,
+                "datatype": "float",
+                "count": 2,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test_1",
+                "scaleFactor": 0
+            },
+            "test_5": {
+                "label": "test_1",
+                "registerAddr": 7,
+                "datatype": "float",
+                "count": 2,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "note": "test_1",
+                "scaleFactor": 0
+            }
+        }
+    },
+    "constants": {
+        "enum16": {},
+        "bitfield32": {}
+    },
+    "unavailable_points": {
+        "input_registers": {},
+        "holding_registers": {}
+    },
+    "reserved_points": {
+        "input_registers": [],
+        "holding_registers": []
+    },
+    "count": {},
+    "unimplemented": {
+        "int16": 32768,
+        "uint16": 65535,
+        "acc16": 0,
+        "int32": 2147483648,
+        "uint32": 4294967295,
+        "acc32": 0,
+        "int64": 9223372036854775808,
+        "acc64": 0,
+        "float": 2143289344,
+        "bitfield16": 65535,
+        "bitfield32": 4294967295,
+        "enum16": 65535,
+        "enum32": 4294967295,
+        "sunssf": 32768,
+        "string": 0
+    }
+}

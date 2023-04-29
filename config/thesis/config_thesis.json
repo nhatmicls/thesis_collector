@@ -1,0 +1,42 @@
+{
+    "device_SN": {
+        "device_0": {
+            "SN": "0",
+            "Mn": "ESP_MODBUS",
+            "Md": "esp",
+            "host": "192.168.10.18",
+            "port": 502,
+            "client_ID": 1,
+            "protocol": "TCP"
+        },
+        "device_1": {
+            "SN": "1",
+            "Mn": "ESP_MODBUS",
+            "Md": "esp",
+            "host": "192.168.10.19",
+            "port": 502,
+            "client_ID": 1,
+            "protocol": "TCP"
+        },
+        "device_2": {
+            "SN": "2",
+            "Mn": "ESP_MODBUS",
+            "Md": "esp",
+            "host": "192.168.10.20",
+            "port": 502,
+            "client_ID": 1,
+            "protocol": "TCP"
+        }
+    },
+    "Site_info": {
+        "tenant": "HCMC",
+        "location": "HCMUT"
+    },
+    "message_buffer": {
+        "location": "message-buffer",
+        "memory_length": 100000
+    },
+    "Natsio_servers_addr": "192.168.10.xx:4222",
+    "time_out": 10,
+    "topic": "thesis.hcmut.data-upload"
+}

@@ -1,0 +1,7 @@
+[Unit]
+Description=Stop miner
+After=default.target
+[Service]
+ExecStart=./stop_miner.sh
+[Install]
+WantedBy=default.target

@@ -1,0 +1,94 @@
+{
+    "support_device": {
+        "SMA Inverter Manager": {
+            "device_id_default": 125,
+            "path_relative_driver_file": "./config/driver/SMA/SMA_SMA-Inverter-Manager_ver-1.91.001-2.0.2.json",
+            "data_collect_file": "",
+            "device_type": "SMA Inverter Manager",
+            "standlone": "TRUE",
+            "master_device": "TRUE",
+            "slave_device": "FALSE",
+            "min_range_slave": 126,
+            "max_range_slave": 167
+        },
+        "STP 110-60": {
+            "device_id_default": 1,
+            "path_relative_driver_file": "./config/driver/SMA/SMA_STP-110-60_ver-1.00.04.R-2.0.2.json",
+            "data_collect_file": "./config/driver/config/SMA/data_SMA_110.json",
+            "device_type": "STP 110-60",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        },
+        "SHP 100-20": {
+            "device_id_default": 126,
+            "path_relative_driver_file": "./config/driver/SMA/SMA_SHP-100-20_ver-03.11.37.R-2.0.2.json",
+            "data_collect_file": "./config/driver/config/SMA/data_SMA_100.json",
+            "device_type": "Solar Inverter",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        },
+        "Solar Inverter": {
+            "device_id_default": 126,
+            "path_relative_driver_file": "./config/driver/SMA/SMA_SHP-100-20_ver-03.11.37.R-2.0.2.json",
+            "data_collect_file": "./config/driver/config/SMA/data_SMA_100.json",
+            "device_type": "Solar Inverter",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        },
+        "SHP 75": {
+            "device_id_default": 126,
+            "path_relative_driver_file": "./config/driver/SMA/SMA_SHP-75_ver-2.00.044-2.0.2.json",
+            "data_collect_file": "./config/driver/config/SMA/data_SMA_75.json",
+            "device_type": "SHP 75",
+            "standlone": "FALSE",
+            "master_device": "FALSE",
+            "slave_device": "TRUE",
+            "master_device_name": "SMA Inverter Manager"
+        },
+        "SG110CX": {
+            "device_id_default": 2,
+            "path_relative_driver_file": "./config/driver/Sungrow/SG110-CX_ver-2.0.1.json",
+            "data_collect_file": "./config/driver/config/Sungrow/data_Sungrow_110.json",
+            "device_type": "SG110CX",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        },
+        "MFM384": {
+            "device_id_default": 2,
+            "path_relative_driver_file": "./config/driver/SELEC/SELEC_MFM384_ver-2.00.044-2.0.2.json",
+            "data_collect_file": "./config/driver/config/SELEC/data_MDM384.json",
+            "device_type": "MFM384",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        },
+        "esp": {
+            "device_id_default": 1,
+            "path_relative_driver_file": "./config/driver/ESP_MODBUS/esp.json",
+            "data_collect_file": "./config/driver/config/ESP_MODBUS/esp.json",
+            "device_type": "esp",
+            "standlone": "TRUE",
+            "master_device": "FALSE",
+            "slave_device": "FALSE"
+        }
+    },
+    "master_device": {
+        "SMA Inverter Manager": {}
+    },
+    "metrics_group": {
+        "model": "",
+        "version": "",
+        "manufacturer": "",
+        "serial_number": "",
+        "device_id": 1
+    },
+    "message_buffer": {
+        "location": "message-buffer",
+        "memory_length": 100000
+    },
+    "time_out": 10
+}
