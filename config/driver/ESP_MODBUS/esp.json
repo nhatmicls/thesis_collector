@@ -1,69 +1,145 @@
 {
-    "manufacturer": "Sungrow",
+    "manufacturer": "Micls",
     "version": "2.0.1",
-    "protocol": "RTU",
+    "protocol": "TCP",
     "offset": 1,
     "points": {
-        "input_registers": {},
-        "holding_registers": {
-            "test": {
-                "label": "test",
+        "input_registers": {
+            "adc_1": {
+                "label": "adc_1",
                 "registerAddr": 1,
-                "datatype": "uint16",
-                "count": 1,
+                "datatype": "float",
+                "count": 2,
                 "byteOrder": "Big_Endian",
                 "wordOrder": "Little_Endian",
-                "note": "test",
                 "scaleFactor": 0
             },
-            "test_1": {
-                "label": "test_1",
-                "registerAddr": 2,
-                "datatype": "uint16",
-                "count": 1,
-                "byteOrder": "Big_Endian",
-                "wordOrder": "Little_Endian",
-                "note": "test_1",
-                "scaleFactor": 0
-            },
-            "test_2": {
-                "label": "test",
+            "adc_2": {
+                "label": "adc_2",
                 "registerAddr": 3,
-                "datatype": "uint16",
-                "count": 1,
+                "datatype": "float",
+                "count": 2,
                 "byteOrder": "Big_Endian",
                 "wordOrder": "Little_Endian",
-                "note": "test",
                 "scaleFactor": 0
             },
-            "test_3": {
-                "label": "test_1",
-                "registerAddr": 4,
-                "datatype": "uint16",
-                "count": 1,
-                "byteOrder": "Big_Endian",
-                "wordOrder": "Little_Endian",
-                "note": "test_1",
-                "scaleFactor": 0
-            },
-            "test_4": {
-                "label": "test_1",
+            "adc_3": {
+                "label": "adc_3",
                 "registerAddr": 5,
                 "datatype": "float",
                 "count": 2,
                 "byteOrder": "Big_Endian",
                 "wordOrder": "Little_Endian",
-                "note": "test_1",
                 "scaleFactor": 0
             },
-            "test_5": {
-                "label": "test_1",
+            "adc_4": {
+                "label": "adc_4",
                 "registerAddr": 7,
                 "datatype": "float",
                 "count": 2,
                 "byteOrder": "Big_Endian",
                 "wordOrder": "Little_Endian",
-                "note": "test_1",
+                "scaleFactor": 0
+            },
+            "adc_5": {
+                "label": "adc_5",
+                "registerAddr": 9,
+                "datatype": "float",
+                "count": 2,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "adc_6": {
+                "label": "adc_6",
+                "registerAddr": 11,
+                "datatype": "float",
+                "count": 2,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_1": {
+                "label": "button_1",
+                "registerAddr": 101,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_2": {
+                "label": "button_2",
+                "registerAddr": 102,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_3": {
+                "label": "button_3",
+                "registerAddr": 103,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_4": {
+                "label": "button_4",
+                "registerAddr": 104,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_5": {
+                "label": "button_5",
+                "registerAddr": 105,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "button_6": {
+                "label": "button_6",
+                "registerAddr": 106,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            }
+        },
+        "holding_registers": {
+            "led_1": {
+                "label": "led_1",
+                "registerAddr": 101,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "led_2": {
+                "label": "led_1",
+                "registerAddr": 102,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "led_3": {
+                "label": "led_1",
+                "registerAddr": 103,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
                 "scaleFactor": 0
             }
         }
