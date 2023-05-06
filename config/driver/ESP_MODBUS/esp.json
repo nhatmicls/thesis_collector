@@ -141,6 +141,33 @@
                 "byteOrder": "Big_Endian",
                 "wordOrder": "Little_Endian",
                 "scaleFactor": 0
+            },
+            "data_1": {
+                "label": "data_1",
+                "registerAddr": 104,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "data_2": {
+                "label": "data_2",
+                "registerAddr": 105,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
+            },
+            "data_3": {
+                "label": "data_3",
+                "registerAddr": 106,
+                "datatype": "uint16",
+                "count": 1,
+                "byteOrder": "Big_Endian",
+                "wordOrder": "Little_Endian",
+                "scaleFactor": 0
             }
         }
     },

@@ -23,7 +23,10 @@
                 "register": [
                     "led_1",
                     "led_2",
-                    "led_3"
+                    "led_3",
+                    "data_1",
+                    "data_2",
+                    "data_3"
                 ]
             }
         }

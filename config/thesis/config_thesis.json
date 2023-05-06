@@ -1,10 +1,10 @@
 {
     "device_SN": {
         "device_0": {
-            "SN": "123",
+            "SN": "device_1",
             "Mn": "ESP_MODBUS",
             "Md": "esp",
-            "host": "192.168.1.11",
+            "host": "192.168.10.18",
             "port": 502,
             "client_ID": 1,
             "protocol": "TCP"
@@ -20,5 +20,5 @@
     },
     "Natsio_servers_addr": "nats://pifclub.ddns.net:4222",
     "time_out": 10,
-    "topic": "thesis.hcmut.data-upload.123"
+    "topic": "thesis.hcmut.data-upload.device_1"
 }
